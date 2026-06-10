@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1666762, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/ui/layout/ComposableSingletons$SubcomposeLayoutKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 9 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1666744, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/ui/layout/ComposableSingletons$SubcomposeLayoutKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 9 }
+    }
+  }]
+}
+]
+}

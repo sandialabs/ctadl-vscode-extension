@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1226206, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "android/app/ForegroundServiceStartNotAllowedException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 8 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1226200, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "android/app/ForegroundServiceStartNotAllowedException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 8 }
+    }
+  }]
+}
+]
+}

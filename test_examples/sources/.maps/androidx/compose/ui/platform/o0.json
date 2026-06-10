@@ -1,0 +1,46 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1754028, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/ui/platform/o0.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1754016, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/ui/platform/o0.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 11 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1754012, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/ui/platform/o0.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 11 }
+    }
+  }]
+}
+]
+}

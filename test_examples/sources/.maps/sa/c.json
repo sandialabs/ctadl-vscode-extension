@@ -1,0 +1,59 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 4237898, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "sa/c.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 24 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 4237808, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "sa/c.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 10 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 4237868, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "sa/c.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 21 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 4237838, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "sa/c.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 13 }
+    }
+  }]
+}
+]
+}

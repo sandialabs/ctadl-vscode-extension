@@ -1,0 +1,2074 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441936, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 46 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441946, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 47 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441950, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 48 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441958, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 49 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441968, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 50 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441966, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 50 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441984, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 51 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441986, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 52 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441990, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 53 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441994, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 54 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442046, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 59 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442040, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 59 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442036, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 59 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442052, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 61 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442048, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 61 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442056, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 62 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442486, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 63 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 65 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442512, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 65 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442502, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 65 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442494, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 65 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 67 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442070, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442066, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442078, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 70 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442074, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 70 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442086, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 71 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442082, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 71 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442090, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 72 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442360, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 73 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442364, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 74 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442374, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 75 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442384, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 76 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442390, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 77 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442398, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 78 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442402, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 79 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442406, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 80 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442410, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 81 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442414, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 82 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442418, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 83 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442432, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 84 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 86 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442440, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 89 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442444, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 90 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442448, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 91 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442452, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 92 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442456, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 93 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442460, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 94 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442474, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 95 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 97 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442482, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 100 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442484, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442486, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 102 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 105 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442100, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 107 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442104, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 108 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442114, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 109 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442108, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 109 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442124, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 110 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442118, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 110 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442132, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 111 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442128, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 111 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442136, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 112 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442144, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 114 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442150, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 115 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442154, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 116 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442158, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 117 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442162, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 118 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442166, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 119 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442170, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 120 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442174, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 121 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442184, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 122 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 124 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442194, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 127 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442228, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442218, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442216, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442206, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442204, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 129 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442268, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442258, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442256, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442246, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442244, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442274, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 132 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442280, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 133 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 134 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442302, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 134 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442292, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 134 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442312, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 136 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442316, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 137 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442320, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 138 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442324, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 139 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442328, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 140 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442332, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 141 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442346, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 142 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442336, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 142 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442354, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 144 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442356, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 145 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442358, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 146 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442360, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 147 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442364, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442374, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 149 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442384, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 150 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442390, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 151 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442482, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 153 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442484, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 154 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442486, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 155 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 158 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 160 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441978, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 163 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441984, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 164 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441986, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 165 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441990, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 166 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1441994, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 167 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442194, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 170 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442228, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 171 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442218, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 171 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442216, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 171 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442206, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 171 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442204, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 171 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442554, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 178 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442544, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 178 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442540, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 178 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442560, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 179 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442556, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 179 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442564, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 180 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442580, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 182 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442590, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 184 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442592, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 186 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442606, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 188 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442616, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 190 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442640, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 192 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442632, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 192 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442624, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 192 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442652, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 193 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442646, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 193 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442670, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 195 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442680, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 197 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442674, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 197 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442690, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 198 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442696, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 199 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442722, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 201 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442710, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 201 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442722, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 203 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442720, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 203 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442746, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 207 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442742, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 207 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442758, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 208 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442752, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 208 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442772, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 209 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442764, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 209 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442786, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442778, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442838, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 211 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442836, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 211 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442792, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 211 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1442824, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/DraggableKt.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 211 }
+    }
+  }]
+}
+]
+}

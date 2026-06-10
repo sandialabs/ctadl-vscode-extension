@@ -1,0 +1,4336 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618018, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 514 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619426, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 24 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619422, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 24 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616540, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 34 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616536, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 34 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616552, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 35 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616576, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 40 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616592, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 41 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616588, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 41 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616584, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 41 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616604, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 42 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616600, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 42 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616596, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 42 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616608, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 43 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616518, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 49 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616512, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 49 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616508, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 49 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616656, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 53 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616652, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 53 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616662, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 54 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619456, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 65 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619462, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 67 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619470, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 68 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619466, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 68 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619484, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619482, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619488, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 70 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619492, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 71 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619496, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 72 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619502, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 74 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619514, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 75 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619522, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 76 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619616, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 77 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619532, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 80 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619540, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 81 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619536, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 81 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619546, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 82 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619558, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 83 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619568, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 84 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619566, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 84 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619572, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 85 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619580, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 86 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619590, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 87 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619586, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 88 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619600, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 90 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619604, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 93 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617156, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 100 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617152, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 100 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617180, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617178, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617166, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617204, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 110 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617200, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 110 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617210, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 112 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617216, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 114 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617224, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 115 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617220, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 115 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617238, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 116 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617236, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 116 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617242, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 117 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617246, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 118 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617250, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 119 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617256, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 121 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617268, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 122 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617278, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 123 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617276, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 124 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617372, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 125 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617288, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617296, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 129 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617292, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 129 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617302, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 130 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617314, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 131 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617324, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 132 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617322, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 132 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617328, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 133 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617338, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 134 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617344, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 135 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617354, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 136 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617358, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 139 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617372, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 142 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618408, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 146 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618416, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 147 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618412, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 147 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618438, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618434, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618430, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618428, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619700, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 154 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619706, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 155 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619714, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 156 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619710, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 156 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619720, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 157 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619732, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 158 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619742, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 159 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619740, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 159 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619750, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 160 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619746, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 160 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619756, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 161 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619770, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 163 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617476, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 169 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617474, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 169 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617464, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 169 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617462, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 169 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617500, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 174 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617496, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 174 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617526, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 175 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617524, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 175 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617514, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 175 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617512, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 175 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619372, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 180 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619368, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 180 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619394, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 185 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618596, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 190 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618594, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 190 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618584, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 190 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618582, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 190 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618476, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 195 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618474, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 195 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618464, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 195 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618462, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 195 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617564, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 200 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617562, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 200 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617552, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 200 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617550, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 200 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619192, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 205 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619190, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 205 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618516, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618514, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618504, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618502, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 210 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619320, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 215 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619314, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 215 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619350, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 220 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619344, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 220 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618622, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 229 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618624, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 231 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618630, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 233 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618638, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 234 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618634, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 234 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618652, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 235 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618650, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 235 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618656, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 236 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618660, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 237 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618664, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 238 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618670, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 240 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618682, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 241 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618690, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 242 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618700, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 246 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618708, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 247 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618704, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 247 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618714, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 248 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618726, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 249 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618736, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 250 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618734, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 250 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618740, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 251 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618748, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 252 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618758, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 253 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618754, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 254 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618768, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 256 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618772, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 259 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618784, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 262 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618108, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 271 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618104, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 271 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618114, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 273 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618120, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 275 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618128, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 276 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618124, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 276 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618142, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 277 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618140, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 277 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618146, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 278 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618150, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 279 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618154, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 280 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618160, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 282 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618172, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 283 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618182, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 284 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618180, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 285 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618276, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 286 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618192, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 289 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618200, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 290 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618196, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 290 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618206, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 291 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618218, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 292 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618228, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 293 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618226, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 293 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618232, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 294 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618242, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 295 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618248, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 296 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618258, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 297 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618262, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 300 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618276, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 303 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618364, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 308 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618360, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 308 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618388, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 309 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618386, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 309 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618374, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 309 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616860, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 313 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616868, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 314 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616864, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 314 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616886, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 315 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616882, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 315 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616880, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 315 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618874, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 324 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618876, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 326 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618882, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 328 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618890, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 329 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618886, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 329 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618904, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 330 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618902, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 330 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618908, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 331 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618912, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 332 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618916, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 333 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618922, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 335 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618934, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 336 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618942, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 337 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618952, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 341 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618960, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 342 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618956, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 342 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618966, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 343 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618978, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 344 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618988, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 345 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618986, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 345 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618992, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 346 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619000, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 347 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619010, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 348 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619006, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 349 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619020, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 351 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619024, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 354 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619036, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 357 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618556, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 362 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618554, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 362 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618544, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 362 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618542, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 362 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619212, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 367 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619240, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 368 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619248, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 369 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619264, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 372 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619258, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 372 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619288, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 374 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619282, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 374 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619280, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 374 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619270, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 374 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619852, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 379 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619848, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 379 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619860, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 380 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619856, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 380 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619128, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 385 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619126, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 385 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619152, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 390 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619148, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 390 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619166, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 391 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1619164, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 391 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617584, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 401 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617590, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 403 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617598, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 404 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617594, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 404 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617612, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 405 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617610, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 405 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617616, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 406 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617620, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 407 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617624, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 408 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617630, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 410 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617642, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 411 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617650, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 412 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617658, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 413 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617666, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 414 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617674, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 418 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617682, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 419 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617678, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 419 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617688, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 420 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617700, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 421 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617710, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 422 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617708, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 422 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617714, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 423 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617722, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 424 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617732, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 425 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617728, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 426 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617742, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 428 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617746, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 431 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617784, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 434 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617782, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 434 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616904, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 444 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616910, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 446 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616918, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 447 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616914, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 447 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616932, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 448 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616930, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 448 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616936, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 449 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616940, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 450 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616944, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 451 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616950, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 453 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616962, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 454 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616972, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 455 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616970, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 456 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617066, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 457 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616982, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 460 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616990, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 461 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616986, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 461 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1616996, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 462 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617008, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 463 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617018, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 464 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617016, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 464 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617022, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 465 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617032, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 466 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617038, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 467 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617048, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 468 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617052, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 471 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617066, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 474 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617856, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 484 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617862, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 486 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617870, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 487 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617866, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 487 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617884, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 488 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617882, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 488 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617888, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 489 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617892, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 490 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617896, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 491 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617902, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 493 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617914, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 494 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617924, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 495 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617922, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 496 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618018, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 497 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617934, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 500 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617942, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 501 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617938, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 501 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617948, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 502 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617960, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 503 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617970, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 504 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617968, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 504 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617974, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 505 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617984, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 506 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1617990, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 507 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618000, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 508 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1618004, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/runtime/snapshots/SnapshotStateList.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 511 }
+    }
+  }]
+}
+]
+}

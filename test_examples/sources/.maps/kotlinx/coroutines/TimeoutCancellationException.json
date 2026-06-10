@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3806594, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/TimeoutCancellationException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 16 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3806588, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/TimeoutCancellationException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 15 }
+    }
+  }]
+}
+]
+}

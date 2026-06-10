@@ -1,0 +1,1853 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295616, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 128 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295622, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 129 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295618, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 129 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295628, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 130 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296476, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 135 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296472, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 135 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296486, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 136 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296482, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 136 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295740, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 141 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295738, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 141 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295728, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 141 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295804, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 146 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295800, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 146 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295824, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 147 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295814, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 147 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295830, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295826, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 148 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295842, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 149 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295836, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 149 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295464, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 154 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295460, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 154 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296242, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296212, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296216, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296220, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296224, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296228, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296232, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295474, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 155 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295514, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 156 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295504, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 156 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295484, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 156 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296250, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 30 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012476, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 159 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012480, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 160 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012472, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 160 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012498, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 161 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012494, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 161 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012492, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 161 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295496, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 163 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295498, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 163 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295520, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 164 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295516, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 164 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295526, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 165 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296280, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 39 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296276, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 39 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296292, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 40 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296304, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 41 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296302, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 41 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295708, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 170 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295706, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 170 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295696, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 170 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296360, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 46 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296356, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 46 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295764, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 175 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295768, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 176 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295760, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 176 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295782, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 177 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295780, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 177 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295868, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 51 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295866, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 52 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295890, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 53 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295894, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 54 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295892, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 54 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296516, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 182 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296512, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 182 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295896, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 55 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295908, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 56 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295904, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 56 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295924, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 57 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295920, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 57 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295914, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 57 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295934, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 58 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295930, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 58 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295946, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 59 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295994, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 60 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295984, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 60 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295990, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 60 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296000, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 61 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296018, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 62 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296016, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 62 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296026, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 63 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296022, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 63 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296006, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 64 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296036, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 66 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296054, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 66 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296050, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 67 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296046, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 67 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296042, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 67 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296070, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296060, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 69 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296080, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 70 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296076, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 70 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296092, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 72 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296098, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 73 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296094, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 73 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296110, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 74 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296118, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 75 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296114, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 75 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296136, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 76 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296134, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 76 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296124, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 76 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296160, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 78 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296154, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 78 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296152, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 78 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296142, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 78 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296448, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 82 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296444, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 82 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296440, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 82 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296192, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 86 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296190, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 86 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296180, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 86 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295652, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 90 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295648, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 90 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295676, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 91 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295674, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 91 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295662, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 91 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296388, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 96 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296384, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 96 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296416, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296412, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 101 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296332, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 106 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2296328, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 106 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295548, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 111 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295544, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 111 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295560, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 112 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295562, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 113 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295568, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 114 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295578, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 115 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012380, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 118 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012388, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 119 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012384, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 119 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012398, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 120 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012410, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 121 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012404, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 121 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012426, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 122 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3012420, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 122 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295584, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 125 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295592, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 126 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295588, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 126 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295602, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 127 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 2295598, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/sqlite/db/framework/FrameworkSQLiteDatabase.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 127 }
+    }
+  }]
+}
+]
+}

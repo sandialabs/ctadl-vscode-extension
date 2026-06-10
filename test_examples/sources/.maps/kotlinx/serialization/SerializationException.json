@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3865564, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/SerializationException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 9 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3865588, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/SerializationException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 13 }
+    }
+  }]
+}
+]
+}

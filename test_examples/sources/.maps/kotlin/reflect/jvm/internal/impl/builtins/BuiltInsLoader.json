@@ -1,0 +1,72 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3425688, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3425640, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 21 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3425626, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 21 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3425630, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 21 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3425616, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/builtins/BuiltInsLoader.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 18 }
+    }
+  }]
+}
+]
+}

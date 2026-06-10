@@ -1,0 +1,72 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3816208, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 32 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3816212, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 33 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3816238, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 34 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3816236, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 34 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3816256, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 27 }
+    }
+  }]
+}
+]
+}

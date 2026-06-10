@@ -1,0 +1,59 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1445764, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/ScrollableKt$ModifierLocalScrollableContainer$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 20 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1445760, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/ScrollableKt$ModifierLocalScrollableContainer$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 20 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1445788, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/ScrollableKt$ModifierLocalScrollableContainer$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 1445818, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "androidx/compose/foundation/gestures/ScrollableKt$ModifierLocalScrollableContainer$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 15 }
+    }
+  }]
+}
+]
+}

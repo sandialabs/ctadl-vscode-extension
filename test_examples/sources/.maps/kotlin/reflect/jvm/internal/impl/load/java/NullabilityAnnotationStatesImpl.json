@@ -1,0 +1,72 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3483786, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/load/java/NullabilityAnnotationStatesImpl.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 16 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3483820, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/load/java/NullabilityAnnotationStatesImpl.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3483798, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/load/java/NullabilityAnnotationStatesImpl.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3483794, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/load/java/NullabilityAnnotationStatesImpl.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3483808, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/load/java/NullabilityAnnotationStatesImpl.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 12 }
+    }
+  }]
+}
+]
+}

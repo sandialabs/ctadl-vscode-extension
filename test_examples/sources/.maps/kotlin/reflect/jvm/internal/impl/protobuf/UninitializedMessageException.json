@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3656176, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/protobuf/UninitializedMessageException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 6 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3656172, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlin/reflect/jvm/internal/impl/protobuf/UninitializedMessageException.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 6 }
+    }
+  }]
+}
+]
+}

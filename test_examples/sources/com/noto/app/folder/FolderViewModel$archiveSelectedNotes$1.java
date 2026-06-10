@@ -1,0 +1,47 @@
+package com.noto.app.folder;
+
+import androidx.datastore.preferences.PreferencesProto$Value;
+import ja.x;
+import kotlin.Metadata;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import x6.h0;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+@Metadata(d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\u008a@"}, d2 = {"Lja/x;", "Lm7/n;", "<anonymous>"}, k = PreferencesProto$Value.INTEGER_FIELD_NUMBER, mv = {1, 8, 0})
+@q7.c(c = "com.noto.app.folder.FolderViewModel$archiveSelectedNotes$1", f = "FolderViewModel.kt", l = {}, m = "invokeSuspend")
+/* loaded from: classes.dex */
+public final class FolderViewModel$archiveSelectedNotes$1 extends SuspendLambda implements u7.p<x, p7.c<? super m7.n>, Object> {
+
+    /* renamed from: m  reason: collision with root package name */
+    public /* synthetic */ Object f8466m;
+    public final /* synthetic */ FolderViewModel n;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public FolderViewModel$archiveSelectedNotes$1(FolderViewModel folderViewModel, p7.c<? super FolderViewModel$archiveSelectedNotes$1> cVar) {
+        super(2, cVar);
+        this.n = folderViewModel;
+    }
+
+    @Override // u7.p
+    public final Object R(x xVar, p7.c<? super m7.n> cVar) {
+        return ((FolderViewModel$archiveSelectedNotes$1) a(xVar, cVar)).k(m7.n.f16010a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final p7.c<m7.n> a(Object obj, p7.c<?> cVar) {
+        FolderViewModel$archiveSelectedNotes$1 folderViewModel$archiveSelectedNotes$1 = new FolderViewModel$archiveSelectedNotes$1(this.n, cVar);
+        folderViewModel$archiveSelectedNotes$1.f8466m = obj;
+        return folderViewModel$archiveSelectedNotes$1;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object k(Object obj) {
+        m0.b.n1(obj);
+        x xVar = (x) this.f8466m;
+        FolderViewModel folderViewModel = this.n;
+        for (h0 h0Var : folderViewModel.n()) {
+            m0.b.M0(xVar, null, null, new FolderViewModel$archiveSelectedNotes$1$1$1(folderViewModel, h0Var, null), 3);
+        }
+        return m7.n.f16010a;
+    }
+}

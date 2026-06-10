@@ -1,0 +1,85 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867772, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 16 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867740, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 24 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867736, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 24 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867750, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 25 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867746, "byteLength": 2 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 25 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 3867802, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "kotlinx/serialization/descriptors/SerialDescriptorsKt$buildSerialDescriptor$1.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 19 }
+    }
+  }]
+}
+]
+}

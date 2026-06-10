@@ -1,0 +1,33 @@
+{
+"version": 1,
+"tool": "jadx",
+"mappings": [
+{
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes2.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 244654, "byteLength": 1 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "j$/util/concurrent/y.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 7 }
+    }
+  }]
+}, {
+  "binary": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "classes2.dex", "uriBaseId": "BINROOT" },
+      "region": { "byteOffset": 244648, "byteLength": 3 }
+    }
+  }],
+  "source": [{
+    "physicalLocation": {
+      "artifactLocation": { "uri": "j$/util/concurrent/y.java", "uriBaseId": "SRCROOT" },
+      "region": { "startLine": 7 }
+    }
+  }]
+}
+]
+}

@@ -1,0 +1,145 @@
+{
+    "name": "ctadl",
+    "displayName": "CTADL",
+    "description": "View taint analysis results from CTADL",
+    "publisher": "CTADL Team",
+    "author": "CTADL Team",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.103.0"
+    },
+    "categories": [
+        "Visualization"
+    ],
+    "icon": "icon.png",
+    "keywords": [
+        "sarif",
+        "ctadl",
+        "taint",
+        "viewer",
+        "analysis"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sandialabs/ctadl-vscode-extension"
+    },
+    "bugs": {
+        "url": "https://github.com/sandialabs/ctadl-vscode-extension/issues"
+    },
+    "activationEvents": [],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "ctadl.openSarif",
+                "title": "Open SARIF File",
+                "category": "CTADL"
+            },
+            {
+                "command": "ctadl.togglePanel",
+                "title": "Toggle Panel",
+                "category": "CTADL"
+            },
+            {
+                "command": "ctadl.closeSarif",
+                "title": "Close SARIF File",
+                "category": "CTADL"
+            },
+            {
+                "command": "ctadl.srcSinkPaths",
+                "title": "Get Paths for Current Line",
+                "category": "CTADL"
+            },
+            {
+                "command": "ctadl.reloadMaps",
+                "title": "Reload Maps Cache",
+                "category": "CTADL"
+            }
+        ],
+        "configuration": {
+            "title": "CTADL",
+            "properties": {
+                "ctadl.showDiagnostics": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Show squiggly diagnostics for SARIF results."
+                },
+                "ctadl.ascentPath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Path to the directory containing the 'get-paths' binary."
+                },
+                "ctadl.collapsePathDuplicates": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Collapse consecutive results on the same line into one result when viewing path results."
+                },
+                "ctadl.hideBlankLineResults": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Hide results that have no line number when viewing path results."
+                }
+            }
+        },
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "ctadl.closeSarif",
+                    "when": "ctadl.sarifLoaded"
+                },
+                {
+                    "command": "ctadl.srcSinkPaths",
+                    "when": "ctadl.sarifLoaded"
+                }
+            ],
+            "editor/context": [
+                {
+                    "command": "ctadl.srcSinkPaths",
+                    "group": "99_ctadl@1",
+                    "when": "ctadl.sarifLoaded"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "ctadl.srcSinkPaths",
+                "key": "ctrl+shift+alt+p",
+                "mac": "cmd+shift+alt+p",
+                "when": "editorTextFocus && ctadl.sarifLoaded"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run package",
+        "compile": "webpack",
+        "watch": "webpack --watch",
+        "package": "webpack --mode production --devtool hidden-source-map",
+        "compile-tests": "tsc -p . --outDir out",
+        "watch-tests": "tsc -p . -w --outDir out",
+        "pretest": "npm run compile-tests && npm run compile && npm run lint",
+        "lint": "eslint src",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/lodash.debounce": "^4.0.9",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "22.x",
+        "@types/sarif": "^2.1.7",
+        "@types/vscode": "^1.103.0",
+        "@vscode/test-cli": "^0.0.12",
+        "@vscode/test-electron": "^2.5.2",
+        "css-loader": "^7.1.4",
+        "eslint": "^9.39.3",
+        "style-loader": "^4.0.0",
+        "ts-loader": "^9.5.4",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.56.1",
+        "webpack": "^5.105.3",
+        "webpack-cli": "^6.0.1"
+    },
+    "dependencies": {
+        "@vscode/codicons": "^0.0.45",
+        "lodash.debounce": "^4.0.8",
+        "preact": "^10.29.2"
+    }
+}
