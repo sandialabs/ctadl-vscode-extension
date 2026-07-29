@@ -162,23 +162,25 @@ panel dispose, since `togglePanel` disposes rather than hides).
 don't kill it early. The suite is 10 tests and runs in ~8s once VS Code is up, ~30s
 wall including `pretest`.
 
-> **Currently broken out of the box on macOS.** `.vscode-test.mjs` pins no `version`,
-> so `@vscode/test-cli` resolves `stable` to the newest release and downloads it.
-> `@vscode/test-electron@2.5.2` then spawns
-> `Visual Studio Code.app/Contents/MacOS/Electron`, but VS Code stable dropped that
-> symlink after 1.129 — 1.131 ships only `Contents/MacOS/Code`. The run dies with
-> `spawn … /MacOS/Electron ENOENT` before any test executes.
+> **Fixed (was broken out of the box on macOS).** `@vscode/test-electron@2.5.2`
+> spawned `Visual Studio Code.app/Contents/MacOS/Electron`. VS Code 1.110 renamed
+> that binary to `Contents/MacOS/Code` and kept a compatibility symlink until it
+> was removed on 2026-07-20, so any newly-downloaded stable build died with
+> `spawn … /MacOS/Electron ENOENT` before a single test ran. `.vscode-test.mjs`
+> pins no `version`, so `stable` always resolves to such a build.
 >
-> The fix is to pin a working build, either ad hoc or in `.vscode-test.mjs`:
+> Repaired by bumping `@vscode/test-electron` to `^3.1.0`, which resolves the
+> executable from `Info.plist`'s `CFBundleExecutable` instead of hardcoding the
+> old name. No version pin is needed; `nix develop -c npm test` works as-is.
 >
-> ```
-> npx vscode-test --code-version 1.129.0     # verified: 10 passing
-> ```
->
-> Do **not** try to paper over it by symlinking `Electron -> Code` in the app bundle.
+> Do **not** paper this over by symlinking `Electron -> Code` in the app bundle.
 > That gets past the `ENOENT`, but macOS then launches a process that hangs at ~0%
-> CPU and never starts the extension host — the test run wedges instead of failing.
-> Bumping `@vscode/test-electron` is the real repair.
+> CPU and never starts the extension host — the run wedges instead of failing.
+>
+> If a download is interrupted, `.vscode-test/vscode-darwin-*/` can be left holding
+> an `is-complete` marker with no app. `vscode-test` then reports "Found existing
+> install" and fails `ENOENT` forever; delete that version directory to force a
+> re-download.
 
 Nix users: `flake.nix` provides node 22; `.envrc` + direnv load it. There is no
 `python3` in this shell — use `node -e` for scratch data inspection.
