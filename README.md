@@ -12,33 +12,61 @@ Results (`*.sarif`) can be loaded in two ways:
 * Run the `Open SARIF File` command directly.
 * Manually toggle the panel with the command `Toggle Panel` command. Then click "Open SARIF File".
 
-**Note for Ascent-based CTADL Logs:** To use the path tracing feature with the newer Ascent-based CTADL, you must configure the `CTADL: Ascent Path` setting in your VS Code User Settings to point to the directory containing the `get-paths` python script.
+**Note for Ascent-based CTADL Logs:** To use the path tracing feature with the newer Ascent-based CTADL, you must configure the `CTADL: Ascent Path` setting in your VS Code User Settings to point to the directory containing the `get-paths` executable/script.
 
 For detailed instructions on using this extension with CTADL output, see the [tutorial](tutorial.md).
 
 ## Features
 
 - **Results Table**: View all taint analysis results in an interactive table with search filtering.
-- **Path Tracing**: Right-click a line in your source code and select "Get Paths for Current Line" to trace forward (to sinks) and backward (from sources) taint paths related to that line.
+- **Path Tracing**: Right-click a line in your source code and select **Get Paths for Current Line** to trace forward (to sinks) and backward (from sources).
 
-## Development
+## Commands
 
-`F5` launches this extension in a new VS Code window. Subsequent changes are watched and rebuilt. Use the command `Developer: Reload Window` to see changes.
+- **Open SARIF File** (`ctadl.openSarif`): load a `*.sarif` produced by CTADL.
+- **Toggle Panel** (`ctadl.togglePanel`): open/close the CTADL Results Panel (it disposes when toggling off).
+- **Close SARIF File** (`ctadl.closeSarif`): clear the currently loaded SARIF, diagnostics, and path state.
+- **Get Paths for Current Line** (`ctadl.srcSinkPaths`): compute taint paths for the cursor’s current line.
+- **Reload Maps Cache** (`ctadl.reloadMaps`): clear the cached `.maps` remapping tables.
 
-To install npm and nodejs in Ubuntu, do `sudo apt install nodejs npm` or use [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating): `nvm install --lts`. Afterwards, do `npm install`.
+## Configuration
 
-Common tasks:
+- `ctadl.showDiagnostics` (boolean, default: `true`): show CTADL results as VS Code diagnostics (squiggles + Problems list).
+- `ctadl.ascentPath` (string): directory containing the external `get-paths` binary used for Ascent-based CTADL logs.
+- `ctadl.collapsePathDuplicates` (boolean, default: `false`): collapse consecutive duplicate steps in the path view.
+- `ctadl.hideBlankLineResults` (boolean, default: `false`): hide path steps that have no mapped line number.
+
+**Important for Ascent-based logs:** diagnostic squiggles and path location mapping rely on `*.maps/**` files. Make sure your VS Code *workspace root* contains the `.maps` directory that corresponds to the SARIF you load.
+
+For Ascent path tracing, set `ctadl.ascentPath` so the extension can run `get-paths`.
+
+## Development & Testing
+
+`F5` launches this extension in a new VS Code window. Subsequent changes are watched and rebuilt. Use **Developer: Reload Window** to see changes.
+
+Build & quality checks:
 
 | Command | Comments |
 | --- | --- |
-| `npx @vscode/vsce package --no-rewrite-relative-links` | Build the project to produce a VSIX package in the project root directory. |
-| `npm run compile` | Webpack bundles the extension. |
-| `npm run package` | Webpack bundles the extension for production. |
-| `npm run compile-tests` | Compiles the typescript test files. |
-| `npm run lint` | Run ESLint. |
-| `npm test` | Automatically compiles tests, bundles code, runs the linter, and executes the test suite. |
+| `npm run compile` | Webpack bundles the extension into `dist/` (development build). |
+| `npm run webpack:prod` | Production webpack build into `dist/` (used by prepublish). |
+| `npm run vsix` | Produces a distributable VSIX in the project root. |
+| `npm run compile-tests` | TypeScript-compile tests into `out/`. |
+| `npm run lint` | ESLint for `src/`. |
+| `npm test` | Compiles tests, bundles code, runs lint, then executes the test suite in a real VS Code Extension Host. |
 
-`xvfb-run npm test` can be used instead in a headless environment.
+Notes:
+- `npm test` launches a real VS Code instance; don’t kill it early.
+- In CI/headless, you can use `xvfb-run npm test`.
+
+## Test coverage expectations
+
+The test suite exercises command wiring and observable behavior (diagnostics + panel state) against fixtures under `test_examples/`.
+
+Testing tips for contributors:
+- Prefer driving behavior through the VS Code commands (this keeps the tests aligned with how users interact with the extension).
+- Don’t rely on importing extension modules into tests for shared state; tests run against the compiled extension bundle.
+- The test workspace root is controlled by `.vscode-test.mjs` and should not be “derived” from VS Code’s `workspaceFolders` inside the code under test.
 
 # Copyright
 

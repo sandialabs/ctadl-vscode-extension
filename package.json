@@ -26,7 +26,13 @@
     "bugs": {
         "url": "https://github.com/sandialabs/ctadl-vscode-extension/issues"
     },
-    "activationEvents": [],
+    "activationEvents": [
+        "onCommand:ctadl.openSarif",
+        "onCommand:ctadl.togglePanel",
+        "onCommand:ctadl.closeSarif",
+        "onCommand:ctadl.srcSinkPaths",
+        "onCommand:ctadl.reloadMaps"
+    ],
     "main": "./dist/extension.js",
     "contributes": {
         "commands": [
@@ -110,10 +116,12 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "npm run package",
+        "clean": "node -e \"const fs=require('fs'); for (const d of ['dist','out']) fs.rmSync(d,{recursive:true,force:true});\"",
+        "vscode:prepublish": "npm run webpack:prod",
         "compile": "webpack",
         "watch": "webpack --watch",
-        "package": "webpack --mode production --devtool hidden-source-map",
+        "webpack:prod": "webpack --mode production --devtool hidden-source-map",
+        "vsix": "npx @vscode/vsce package --no-rewrite-relative-links",
         "compile-tests": "tsc -p . --outDir out",
         "watch-tests": "tsc -p . -w --outDir out",
         "pretest": "npm run compile-tests && npm run compile && npm run lint",
