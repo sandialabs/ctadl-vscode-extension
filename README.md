@@ -12,6 +12,12 @@ Results (`*.sarif`) can be loaded in two ways:
 * Run the `Open SARIF File` command directly.
 * Manually toggle the panel with the command `Toggle Panel` command. Then click "Open SARIF File".
 
+To generate a SARIF file from CTADL's one-shot `go` command, provide the project name before the artifact path. For example, from the `ctadl-rs` checkout:
+
+```bash
+ctadl go --sarif-profile machine --output results.sarif -m test_examples/default-query.json com.noto_54.apk xtask/tests/dex/com.noto_54.apk
+```
+
 **Note for Ascent-based CTADL Logs:** To use the path tracing feature with the newer Ascent-based CTADL, you must configure the `CTADL: Ascent Path` setting in your VS Code User Settings to point to the directory containing the `get-paths` executable/script.
 
 For detailed instructions on using this extension with CTADL output, see the [tutorial](tutorial.md).
@@ -39,6 +45,8 @@ For detailed instructions on using this extension with CTADL output, see the [tu
 **Important for Ascent-based logs:** diagnostic squiggles and path location mapping rely on `*.maps/**` files. Make sure your VS Code *workspace root* contains the `.maps` directory that corresponds to the SARIF you load.
 
 For Ascent path tracing, set `ctadl.ascentPath` so the extension can run `get-paths`.
+
+Also note: `get-paths` loads an indexed CTADL project from your local CTADL state store using the SARIF `properties.project_name` value. If that project is missing (e.g., you get an error about `project_config.json` not found), you must create it by running CTADL `import` + `index` for that project name before using path tracing.
 
 ## Development & Testing
 

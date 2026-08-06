@@ -3,7 +3,11 @@
 
 1) Install the plugin as described in the [README](README.md#usage).
 1) Set the `CTADL: Ascent Path` in your VS Code settings to the directory containing the `get-paths` python script (Required for tracing paths in Ascent-based logs).
-1) Run CTADL to export a sarif results file alongside its generated `.maps` directory.
+1) Run CTADL to export a sarif results file alongside its generated `.maps` directory. For example, from the `ctadl-rs` checkout, CTADL's one-shot `go` command takes the project name before the artifact path:
+
+    ```bash
+    ctadl go --sarif-profile machine --output results.sarif -m test_examples/default-query.json com.noto_54.apk xtask/tests/dex/com.noto_54.apk
+    ```
 1) In vscode with the extension installed, open the root folder of your project (where your source code resides) with `File -> Open Folder`. Then, as described in the [README](README.md#usage), open the exported sarif file.
     * *Note:* The extension will automatically look for and apply the `.maps` directory to map the binary locations in the sarif file back to your source code.
 
