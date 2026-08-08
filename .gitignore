@@ -136,3 +136,7 @@ web_modules/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Docker CLI config the nix devShell points DOCKER_CONFIG at (buildx plugin
+# link, colima docker context).
+.docker/

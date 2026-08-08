@@ -169,36 +169,45 @@ export function activate(context: vscode.ExtensionContext) {
         }
     });
 
-    // Register a command to open a SARIF file
-    const openSarifDisposable = vscode.commands.registerCommand('ctadl.openSarif', async () => {
-        const uris = await vscode.window.showOpenDialog({
-            canSelectMany: false,
-            filters: {
-                'SARIF files': ['sarif', 'json']
-            }
-        });
+    // Register a command to open a SARIF file. Invoked with no argument (command
+    // palette, webview) it prompts; callers that already know the file pass a Uri.
+    const openSarifDisposable = vscode.commands.registerCommand('ctadl.openSarif', async (target?: vscode.Uri) => {
+        let uri = target;
 
-        if (uris && uris.length > 0) {
-            vscode.window.withProgress({
-                location: vscode.ProgressLocation.Notification,
-                title: "Loading SARIF File...",
-                cancellable: false
-            }, async () => {
-                SarifViewerPanel.createOrShow(context.extensionUri, undefined, true);
-                SarifViewerPanel.currentPanel?.setLoading();
-                loadedLog = await loadLog(uris[0]);
-                updateDiagsCache();
-                lastPaths = null;
-                SarifViewerPanel.currentPanel?.sendPaths(null);
-                refreshAllDiags();
-                if (loadedLog) {
-                    SarifViewerPanel.currentPanel?.updateLog(loadedLog);
-                    setSarifLoadedContext(true);
-                } else {
-                    setSarifLoadedContext(false);
+        if (!uri) {
+            const uris = await vscode.window.showOpenDialog({
+                canSelectMany: false,
+                filters: {
+                    'SARIF files': ['sarif', 'json']
                 }
             });
+            uri = uris?.[0];
         }
+
+        if (!uri) {
+            return;
+        }
+
+        const fileUri = uri;
+        await vscode.window.withProgress({
+            location: vscode.ProgressLocation.Notification,
+            title: "Loading SARIF File...",
+            cancellable: false
+        }, async () => {
+            SarifViewerPanel.createOrShow(context.extensionUri, undefined, true);
+            SarifViewerPanel.currentPanel?.setLoading();
+            loadedLog = await loadLog(fileUri);
+            updateDiagsCache();
+            lastPaths = null;
+            SarifViewerPanel.currentPanel?.sendPaths(null);
+            refreshAllDiags();
+            if (loadedLog) {
+                SarifViewerPanel.currentPanel?.updateLog(loadedLog);
+                setSarifLoadedContext(true);
+            } else {
+                setSarifLoadedContext(false);
+            }
+        });
     });
 
     const togglePanelDisposable = vscode.commands.registerCommand('ctadl.togglePanel', () => {

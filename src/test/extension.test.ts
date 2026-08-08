@@ -7,6 +7,7 @@ import { isAscentLog, getPhysicalLocation } from '../shared';
 import { buildMaps, applyMaps } from '../extension/loadLogs';
 import { runPathsScript } from '../extension/ctadl';
 import { Log, Result } from 'sarif';
+import { repoRoot } from './testUtils';
 
 suite('Extension Test Suite', () => {
     vscode.window.showInformationMessage('Start all tests.');
@@ -60,7 +61,7 @@ suite('Extension Test Suite', () => {
 
     test('buildMaps parses .maps directory correctly', async function() {
         this.timeout(60000);
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const backflashSrc = path.join(rootPath, 'test_examples', 'sources');
         const maps = await buildMaps(vscode.Uri.file(backflashSrc).toString());
 
@@ -76,7 +77,7 @@ suite('Extension Test Suite', () => {
 
     test('applyMaps modifies SARIF log and populates _old_locations', async function() {
         this.timeout(60000);
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const sarifPath = path.join(rootPath, 'test_examples', 'results.sarif');
         const logContent = await fs.promises.readFile(sarifPath, 'utf8');
         const log = JSON.parse(logContent) as Log;
