@@ -5,6 +5,10 @@ node_modules/**
 src/**
 .gitignore
 .yarnrc
+.direnv/**
+.envrc
+flake.nix
+flake.lock
 webpack.config.js
 vsc-extension-quickstart.md
 **/tsconfig.json

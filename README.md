@@ -103,9 +103,37 @@ The one-shot equivalent is:
 | `npm test` | Compile, bundle, lint, and run the test suite in a VS Code Extension Host. |
 
 Notes:
-
 - `npm test` opens a real VS Code window and closes it when the run finishes.
 - In Linux CI or other headless environments, use `xvfb-run npm test`.
+
+### Headless tests on macOS
+
+`npm test` launches a real VS Code, which on macOS opens a window on the
+desktop; there is no `xvfb` to hide it behind. To run the same suite headlessly,
+run it inside Linux:
+
+```sh
+nix develop                  # or direnv; provides colima and the docker CLI
+scripts/test-container.sh
+```
+
+The first run boots colima's Linux VM, builds the test image and downloads a
+Linux VS Code, so it takes a while; later runs reuse all three. Useful flags:
+
+| Command | Comments |
+| --- | --- |
+| `scripts/test-container.sh` | Run the whole suite headlessly. |
+| `scripts/test-container.sh --rebuild` | Rebuild the image (after editing the `Dockerfile`). |
+| `scripts/test-container.sh --shell` | Get a shell in the container to poke at things. |
+| `scripts/test-container.sh npm run lint` | Run something other than `npm test`. |
+| `colima stop` | Shut the VM down; it otherwise stays up between runs. |
+
+The repo is bind-mounted into the container, so edits on the host take effect
+without a rebuild. Build output goes to Docker volumes mounted over
+`node_modules`, `out`, `dist` and `.vscode-test`, which keeps the Linux install
+and VS Code download from fighting with the macOS ones. The mount is writable
+because the suite writes into the tree just as a host `npm test` does — a
+Workspace-scoped setting lands in `test_examples/sources/.vscode/settings.json`.
 
 ## Copyright
 
