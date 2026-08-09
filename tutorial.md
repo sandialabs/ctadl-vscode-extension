@@ -2,7 +2,7 @@
 ## Initial Setup
 
 1) Install the plugin as described in the [README](README.md#usage).
-1) If you already have a SARIF file, you can skip this step: viewing SARIF results does **not** require a local `ctadl-rs` checkout or CTADL build. If you need to generate a new SARIF file, run CTADL separately. For example, CTADL's one-shot `go` command takes the project name with `--name`:
+2) If you already have a SARIF file, you can skip this step. If you need to generate a new SARIF file, run CTADL using the one-shot `go` command:
 
     ```bash
     ctadl go \
@@ -12,15 +12,15 @@
       --models /path/to/query.json \
       /path/to/artifact.apk
     ```
-1) If you want to use **Get Paths for Current Line**, build or install CTADL locally so the extension can run `get-paths`. From your local `ctadl-rs` checkout:
+3) If you want to use **Get Paths for Current Line**, build or install CTADL locally so the extension can run `get-paths`. From your local `ctadl-rs` checkout:
 
     ```bash
     cargo build --release -p ctadl-ascent --bins
     ```
 
     This produces `ctadl` and `get-paths` in Cargo's release output directory, usually `target/release/` under the `ctadl-rs` checkout.
-1) Set the `CTADL: Ascent Path` in your VS Code settings to the absolute path of the directory containing `get-paths` (required only for tracing paths in Ascent-based logs).
-1) For path tracing, make sure CTADL has an indexed project whose name matches the SARIF `properties.project_name` value:
+4) Set the `CTADL: Ascent Path` in your VS Code settings to the absolute path of the directory containing `get-paths` (required only for tracing paths in Ascent-based logs).
+5) For path tracing, make sure CTADL has an indexed project whose name matches the SARIF `properties.project_name` value:
 
     ```bash
     /path/to/ctadl import /path/to/artifact.apk --name my-project
@@ -35,7 +35,7 @@
       --output /path/to/results.sarif \
       --models /path/to/query.json
     ```
-1) In VS Code with the extension installed, open the root folder of your project (where your source code resides) with `File -> Open Folder`. Then, as described in the [README](README.md#usage), open the exported SARIF file.
+6) In VS Code with the extension installed, open the root folder of your project (where your source code resides) with `File -> Open Folder`. Then, as described in the [README](README.md#usage), open the exported SARIF file.
     * *Note:* The extension will automatically look for and apply the `.maps` directory to map the binary locations in the SARIF file back to your source code.
 
 ## Use
