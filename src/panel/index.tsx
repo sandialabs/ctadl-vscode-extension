@@ -1,5 +1,5 @@
 import { render } from 'preact';
-import { useState, useEffect, useMemo, useRef, useCallback } from 'preact/hooks';
+import { useState, useEffect, useMemo, useRef } from 'preact/hooks';
 import debounce from 'lodash.debounce';
 import { Log, Result, Run } from 'sarif';
 import { CtadlDataResult } from '../shared/ctadlShared';
@@ -89,16 +89,16 @@ function App() {
     useEffect(() => {
         const state = vscode.getState();
         if (state) {
-            if (state.paths) setPaths(state.paths);
-            if (state.activeTab) setActiveTab(state.activeTab);
-            if (state.resultsSplitHeight) setResultsSplitHeight(state.resultsSplitHeight);
-            if (state.pathsSplitHeight) setPathsSplitHeight(state.pathsSplitHeight);
-            if (state.sortCol) setSortCol(state.sortCol);
-            if (state.sortDir) setSortDir(state.sortDir);
-            if (state.resultsExpandedGroups) setResultsExpandedGroups(new Set(state.resultsExpandedGroups));
-            if (state.pathsExpandedGroups) setPathsExpandedGroups(new Set(state.pathsExpandedGroups));
-            if (state.resultsAllCollapsed !== undefined) setResultsAllCollapsed(state.resultsAllCollapsed);
-            if (state.pathsAllCollapsed !== undefined) setPathsAllCollapsed(state.pathsAllCollapsed);
+            if (state.paths) {setPaths(state.paths);}
+            if (state.activeTab) {setActiveTab(state.activeTab);}
+            if (state.resultsSplitHeight) {setResultsSplitHeight(state.resultsSplitHeight);}
+            if (state.pathsSplitHeight) {setPathsSplitHeight(state.pathsSplitHeight);}
+            if (state.sortCol) {setSortCol(state.sortCol);}
+            if (state.sortDir) {setSortDir(state.sortDir);}
+            if (state.resultsExpandedGroups) {setResultsExpandedGroups(new Set(state.resultsExpandedGroups));}
+            if (state.pathsExpandedGroups) {setPathsExpandedGroups(new Set(state.pathsExpandedGroups));}
+            if (state.resultsAllCollapsed !== undefined) {setResultsAllCollapsed(state.resultsAllCollapsed);}
+            if (state.pathsAllCollapsed !== undefined) {setPathsAllCollapsed(state.pathsAllCollapsed);}
         }
     }, []);
 
@@ -132,14 +132,14 @@ function App() {
     }, [resultsSplitHeight, pathsSplitHeight]);
 
     useEffect(() => {
-        if (!isDragging) return;
+        if (!isDragging) {return;}
 
         const onMouseMove = (e: MouseEvent) => {
-            if (!splitsContainerRef.current) return;
+            if (!splitsContainerRef.current) {return;}
             const rect = splitsContainerRef.current.getBoundingClientRect();
             let newHeight = ((e.clientY - rect.top) / rect.height) * 100;
-            if (newHeight < 10) newHeight = 10;
-            if (newHeight > 90) newHeight = 90;
+            if (newHeight < 10) {newHeight = 10;}
+            if (newHeight > 90) {newHeight = 90;}
 
             if (activeTab === 'results') {
                 setResultsSplitHeight(newHeight);
@@ -410,15 +410,15 @@ function App() {
         if (isResults) {
             setResultsExpandedGroups(prev => {
                 const next = new Set(prev);
-                if (next.has(groupId)) next.delete(groupId);
-                else next.add(groupId);
+                if (next.has(groupId)) {next.delete(groupId);}
+                else {next.add(groupId);}
                 return next;
             });
         } else {
             setPathsExpandedGroups(prev => {
                 const next = new Set(prev);
-                if (next.has(groupId)) next.delete(groupId);
-                else next.add(groupId);
+                if (next.has(groupId)) {next.delete(groupId);}
+                else {next.add(groupId);}
                 return next;
             });
         }
@@ -521,7 +521,7 @@ function ResultsTable({
     };
 
     const getSortIndicator = (col: string) => {
-        if (sortCol !== col) return '';
+        if (sortCol !== col) {return '';}
         return sortDir === 'asc' ? ' ▲' : ' ▼';
     };
 
@@ -574,9 +574,9 @@ function ResultsTable({
             const valB = getVal(b, sortCol);
 
             // Handle empty values (MAX_NUM or MAX_STR) to always sort as largest
-            if (valA === valB) return 0;
-            if (valA === MAX_NUM || valA === MAX_STR) return sortDir === 'asc' ? 1 : -1;
-            if (valB === MAX_NUM || valB === MAX_STR) return sortDir === 'asc' ? -1 : 1;
+            if (valA === valB) {return 0;}
+            if (valA === MAX_NUM || valA === MAX_STR) {return sortDir === 'asc' ? 1 : -1;}
+            if (valB === MAX_NUM || valB === MAX_STR) {return sortDir === 'asc' ? -1 : 1;}
 
             if (typeof valA === 'number' && typeof valB === 'number') {
                 return sortDir === 'asc' ? valA - valB : valB - valA;
@@ -810,7 +810,7 @@ function PathDetailsPane({ selectedStep }: { selectedStep: CtadlDataResult | nul
     const { inNode, outNode } = selectedStep;
 
     const formatNode = (node: import('../shared/ctadlShared').CtadlNodeInfo | undefined) => {
-        if (!node) return null;
+        if (!node) {return null;}
         const varName = node.var || '';
         const ap = node.ap || '';
         const method = node.mth || '';

@@ -2,6 +2,9 @@ dist/
 out/
 *.vsix
 
+# Optional local CTADL checkout used for path tracing; not part of this repo.
+ctadl-rs/
+
 # Logs
 logs
 *.log
