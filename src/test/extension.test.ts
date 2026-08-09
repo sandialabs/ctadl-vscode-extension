@@ -4,9 +4,10 @@ import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
 import { isAscentLog, getPhysicalLocation } from '../shared';
-import { buildMaps, applyMaps } from '../extension/loadLogs';
+import { buildMaps, applyMaps, loadLog } from '../extension/loadLogs';
 import { runPathsScript } from '../extension/ctadl';
 import { Log, Result } from 'sarif';
+import { repoRoot } from './testUtils';
 
 suite('Extension Test Suite', () => {
     vscode.window.showInformationMessage('Start all tests.');
@@ -60,7 +61,7 @@ suite('Extension Test Suite', () => {
 
     test('buildMaps parses .maps directory correctly', async function() {
         this.timeout(60000);
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const backflashSrc = path.join(rootPath, 'test_examples', 'sources');
         const maps = await buildMaps(vscode.Uri.file(backflashSrc).toString());
 
@@ -76,7 +77,7 @@ suite('Extension Test Suite', () => {
 
     test('applyMaps modifies SARIF log and populates _old_locations', async function() {
         this.timeout(60000);
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const sarifPath = path.join(rootPath, 'test_examples', 'results.sarif');
         const logContent = await fs.promises.readFile(sarifPath, 'utf8');
         const log = JSON.parse(logContent) as Log;
@@ -93,6 +94,27 @@ suite('Extension Test Suite', () => {
         assert.ok(mappedResult, 'At least one result should be remapped to SRCROOT');
     });
 
+    test('loadLog rejects invalid JSON and non-CTADL SARIF', async function() {
+        this.timeout(60000);
+        const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ctadl-log-test-'));
+        try {
+            const invalidJsonPath = path.join(tempDir, 'invalid.sarif');
+            await fs.promises.writeFile(invalidJsonPath, '{ not valid JSON');
+            const invalidJsonLog = await loadLog(vscode.Uri.file(invalidJsonPath));
+            assert.strictEqual(invalidJsonLog, undefined, 'Invalid JSON should not load');
+
+            const nonCtadlPath = path.join(tempDir, 'non-ctadl.sarif');
+            await fs.promises.writeFile(nonCtadlPath, JSON.stringify({
+                version: '2.1.0',
+                runs: [{ tool: { driver: { name: 'not-ctadl' } }, results: [] }]
+            }));
+            const nonCtadlLog = await loadLog(vscode.Uri.file(nonCtadlPath));
+            assert.strictEqual(nonCtadlLog, undefined, 'Non-CTADL SARIF should not load');
+        } finally {
+            fs.rmSync(tempDir, { recursive: true, force: true });
+        }
+    });
+
     test('runPathsScript executes and parses paths using injected execFn', async () => {
         const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ctadl-test-'));
         const scriptPath = path.join(tempDir, 'get-paths');
@@ -103,11 +125,11 @@ suite('Extension Test Suite', () => {
             runs: [{
                 tool: { driver: { name: 'test' } },
                 results: [{
-                    message: { text: "test" },
+                    message: { text: "byte offset result" },
                     locations: [{
                         physicalLocation: {
                             artifactLocation: { uri: 'test.java' },
-                            region: { startLine: 10 }
+                            region: { startLine: 10, byteOffset: 1234 }
                         }
                     }]
                 }]
@@ -125,29 +147,34 @@ suite('Extension Test Suite', () => {
             _binary_locations_map: new Map<string, string[]>([['test.java:10', ['test.dex,1234']]])
         };
 
-        // Set the configuration for the test
-        await vscode.workspace.getConfiguration('ctadl').update('ascentPath', tempDir, vscode.ConfigurationTarget.Global);
+        const config = vscode.workspace.getConfiguration('ctadl');
+        const oldAscentPath = config.get<string>('ascentPath');
+        try {
+            // Set the configuration for the test
+            await config.update('ascentPath', tempDir, vscode.ConfigurationTarget.Global);
 
-        const mockExecFn = async (file: string, args: string[]) => {
-            assert.ok(file.includes('get-paths'), 'Should call get-paths script');
-            assert.ok(args.includes('test.dex,1234'), 'Should include the correct uri,byteOffset pairs');
+            const mockExecFn = async (file: string, args: string[]) => {
+                assert.ok(file.includes('get-paths'), 'Should call get-paths script');
+                assert.ok(args.includes('test.dex,1234'), 'Should include the correct uri,byteOffset pairs');
 
-            const mockOutput = {
-                fwd: [[{ result: { message: { text: "fwd path step" } } }]],
-                bwd: [[{ result: { message: { text: "bwd path step" } } }]]
+                const mockOutput = {
+                    fwd: [[{ byteOffset: 1234, inNode: {}, outNode: {} }]],
+                    bwd: [[{ result: { message: { text: "bwd path step" } } }]]
+                };
+                return { stdout: JSON.stringify(mockOutput), stderr: '' };
             };
-            return { stdout: JSON.stringify(mockOutput), stderr: '' };
-        };
 
-        // Pass the injected mockExecFn to the test subject
-        const paths = await runPathsScript(mockLog, 'test.java', 10, mockExecFn);
+            // Pass the injected mockExecFn to the test subject
+            const paths = await runPathsScript(mockLog, 'test.java', 10, mockExecFn);
 
-        assert.ok(paths, 'Paths should not be undefined');
-        assert.ok(paths.fwd, 'Should have fwd paths');
-        assert.strictEqual(paths.fwd[0][0].result?.message?.text, 'fwd path step');
-        assert.ok(paths.bwd, 'Should have bwd paths');
-        assert.strictEqual(paths.bwd[0][0].result?.message?.text, 'bwd path step');
-
-        fs.rmSync(tempDir, { recursive: true, force: true });
+            assert.ok(paths, 'Paths should not be undefined');
+            assert.ok(paths.fwd, 'Should have fwd paths');
+            assert.strictEqual(paths.fwd[0][0].result?.message?.text, 'byte offset result');
+            assert.ok(paths.bwd, 'Should have bwd paths');
+            assert.strictEqual(paths.bwd[0][0].result?.message?.text, 'bwd path step');
+        } finally {
+            await config.update('ascentPath', oldAscentPath, vscode.ConfigurationTarget.Global);
+            fs.rmSync(tempDir, { recursive: true, force: true });
+        }
     });
 });

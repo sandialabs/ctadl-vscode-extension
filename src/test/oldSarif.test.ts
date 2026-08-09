@@ -1,13 +1,13 @@
 import * as assert from 'assert';
-import * as vscode from 'vscode';
 import * as path from 'path';
 import * as fs from 'fs';
 import { Log } from 'sarif';
 import { isAscentLog } from '../shared';
+import { repoRoot } from './testUtils';
 
 suite('Old SARIF Format Test Suite', () => {
     test('isAscentLog correctly identifies old CTADL logs as false', async () => {
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const sarifPath = path.join(rootPath, 'test_examples', 'results_old_ctadl.sarif');
         const logContent = await fs.promises.readFile(sarifPath, 'utf8');
         const log = JSON.parse(logContent) as Log;
@@ -16,7 +16,7 @@ suite('Old SARIF Format Test Suite', () => {
     });
 
     test('Old CTADL log contains codeFlows', async () => {
-        const rootPath = vscode.workspace.workspaceFolders?.[0]?.uri.fsPath || path.resolve(__dirname, '../../');
+        const rootPath = repoRoot();
         const sarifPath = path.join(rootPath, 'test_examples', 'results_old_ctadl.sarif');
         const logContent = await fs.promises.readFile(sarifPath, 'utf8');
         const log = JSON.parse(logContent) as Log;
