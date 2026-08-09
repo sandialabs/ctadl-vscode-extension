@@ -2,18 +2,45 @@
 ## Initial Setup
 
 1) Install the plugin as described in the [README](README.md#usage).
-1) Set the `CTADL: Ascent Path` in your VS Code settings to the directory containing the `get-paths` python script (Required for tracing paths in Ascent-based logs).
-1) Run CTADL to export a sarif results file alongside its generated `.maps` directory. For example, from the `ctadl-rs` checkout, CTADL's one-shot `go` command takes the project name before the artifact path:
+1) If you already have a SARIF file, you can skip this step: viewing SARIF results does **not** require a local `ctadl-rs` checkout or CTADL build. If you need to generate a new SARIF file, run CTADL separately. For example, CTADL's one-shot `go` command takes the project name with `--name`:
 
     ```bash
-    ctadl go --sarif-profile machine --output results.sarif -m test_examples/default-query.json com.noto_54.apk xtask/tests/dex/com.noto_54.apk
+    ctadl go \
+      --name my-project \
+      --sarif-profile machine \
+      --output results.sarif \
+      --models /path/to/query.json \
+      /path/to/artifact.apk
     ```
-1) In vscode with the extension installed, open the root folder of your project (where your source code resides) with `File -> Open Folder`. Then, as described in the [README](README.md#usage), open the exported sarif file.
-    * *Note:* The extension will automatically look for and apply the `.maps` directory to map the binary locations in the sarif file back to your source code.
+1) If you want to use **Get Paths for Current Line**, build or install CTADL locally so the extension can run `get-paths`. From your local `ctadl-rs` checkout:
+
+    ```bash
+    cargo build --release -p ctadl-ascent --bins
+    ```
+
+    This produces `ctadl` and `get-paths` in Cargo's release output directory, usually `target/release/` under the `ctadl-rs` checkout.
+1) Set the `CTADL: Ascent Path` in your VS Code settings to the absolute path of the directory containing `get-paths` (required only for tracing paths in Ascent-based logs).
+1) For path tracing, make sure CTADL has an indexed project whose name matches the SARIF `properties.project_name` value:
+
+    ```bash
+    /path/to/ctadl import /path/to/artifact.apk --name my-project
+    /path/to/ctadl index my-project
+    ```
+
+    To regenerate the SARIF from that separate import/index flow, run:
+
+    ```bash
+    /path/to/ctadl query my-project \
+      --sarif-profile machine \
+      --output /path/to/results.sarif \
+      --models /path/to/query.json
+    ```
+1) In VS Code with the extension installed, open the root folder of your project (where your source code resides) with `File -> Open Folder`. Then, as described in the [README](README.md#usage), open the exported SARIF file.
+    * *Note:* The extension will automatically look for and apply the `.maps` directory to map the binary locations in the SARIF file back to your source code.
 
 ## Use
 
-You can show the extension panel with the Toggle Panel command (Ctrl+Shift+P menu). Open a sarif file with the Open SARIF File command or through the button on the panel. `View -> Problems` opens the bottom panel which will show all the locations that are in the SARIF file in the vscode problems tab, which show up in the editor itself as squigglies. These will appear alongside error messages displayed by whatever language extensions you have installed.
+You can show the extension panel with the Toggle Panel command (Ctrl+Shift+P menu). Open a SARIF file with the Open SARIF File command or through the button on the panel. `View -> Problems` opens the bottom panel, where mapped SARIF locations appear in the VS Code Problems tab and as editor squiggles. These will appear alongside error messages displayed by whatever language extensions you have installed.
 
 The CTADL Results Panel has two main views controlled by the tabs at the top: **Results** and **Paths**.
 

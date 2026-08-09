@@ -2,6 +2,9 @@ dist/
 out/
 *.vsix
 
+# Optional local CTADL checkout used for path tracing; not part of this repo.
+ctadl-rs/
+
 # Logs
 logs
 *.log
@@ -137,6 +140,3 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# Docker CLI config the nix devShell points DOCKER_CONFIG at (buildx plugin
-# link, colima docker context).
-.docker/

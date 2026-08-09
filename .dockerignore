@@ -1,6 +1,0 @@
-# The image needs nothing from the repo but the entrypoint: sources arrive as a
-# bind mount at run time. Excluding everything else keeps the build context
-# from shipping node_modules, test_examples and the .vscode-test download cache
-# (gigabytes) to the daemon on every build.
-*
-!scripts/container-entrypoint.sh

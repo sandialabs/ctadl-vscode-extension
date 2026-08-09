@@ -159,14 +159,20 @@ export function activate(context: vscode.ExtensionContext) {
             return;
         }
 
-        const results = await srcSinkPathsCommand(loadedLog);
-        if (results) {
-            lastPaths = results;
-            if (SarifViewerPanel.currentPanel) {
-                const isVisible = SarifViewerPanel.currentPanel.isVisible();
-                SarifViewerPanel.currentPanel.sendPaths(results, isVisible);
+        await vscode.window.withProgress({
+            location: vscode.ProgressLocation.Notification,
+            title: 'Getting paths...',
+            cancellable: false
+        }, async () => {
+            const results = await srcSinkPathsCommand(loadedLog);
+            if (results) {
+                lastPaths = results;
+                if (SarifViewerPanel.currentPanel) {
+                    const isVisible = SarifViewerPanel.currentPanel.isVisible();
+                    SarifViewerPanel.currentPanel.sendPaths(results, isVisible);
+                }
             }
-        }
+        });
     });
 
     // Register a command to open a SARIF file. Invoked with no argument (command

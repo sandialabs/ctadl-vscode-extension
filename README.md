@@ -1,4 +1,4 @@
-# CTADL VSCode Extension
+# CTADL VS Code Extension
 
 An extension to view results from CTADL, primarily for analyzing taint locations and taint flow paths. This extension parses SARIF files emitted by CTADL and provides a dedicated UI to analyze the results.
 
@@ -10,15 +10,17 @@ Install this extension via the .vsix file from the command palette with `Ctrl+Sh
 
 Results (`*.sarif`) can be loaded in two ways:
 * Run the `Open SARIF File` command directly.
-* Manually toggle the panel with the command `Toggle Panel` command. Then click "Open SARIF File".
+* Manually toggle the panel with the `Toggle Panel` command. Then click "Open SARIF File".
 
-To generate a SARIF file from CTADL's one-shot `go` command, provide the project name before the artifact path. For example, from the `ctadl-rs` checkout:
+To generate a SARIF file from CTADL's one-shot `go` command, provide the project name with `--name`:
 
 ```bash
-ctadl go --sarif-profile machine --output results.sarif -m test_examples/default-query.json com.noto_54.apk xtask/tests/dex/com.noto_54.apk
+ctadl go --name my-project --sarif-profile machine --output results.sarif --models /path/to/query.json /path/to/artifact.apk
 ```
 
-**Note for Ascent-based CTADL Logs:** To use the path tracing feature with the newer Ascent-based CTADL, you must configure the `CTADL: Ascent Path` setting in your VS Code User Settings to point to the directory containing the `get-paths` executable/script.
+You do **not** need a local `ctadl-rs` checkout to load and view an existing SARIF file. A local CTADL build is only required for generating new CTADL output or for the **Get Paths for Current Line** feature, which shells out to `get-paths`.
+
+**Note for Ascent-based CTADL Logs:** To use the path tracing feature with the newer Ascent-based CTADL, you must configure the `CTADL: Ascent Path` setting in your VS Code User Settings to point to the directory containing the `get-paths` executable/script. This usually means building or otherwise installing CTADL locally; it is not required for simply opening SARIF results.
 
 For detailed instructions on using this extension with CTADL output, see the [tutorial](tutorial.md).
 
@@ -48,6 +50,45 @@ For Ascent path tracing, set `ctadl.ascentPath` so the extension can run `get-pa
 
 Also note: `get-paths` loads an indexed CTADL project from your local CTADL state store using the SARIF `properties.project_name` value. If that project is missing (e.g., you get an error about `project_config.json` not found), you must create it by running CTADL `import` + `index` for that project name before using path tracing.
 
+### Preparing CTADL for path tracing
+
+Opening and browsing an existing SARIF file does not require CTADL or a `ctadl-rs` checkout. Path tracing does require a local `get-paths` executable, plus a CTADL store containing an indexed project whose name matches the SARIF `properties.project_name` value.
+
+From your local `ctadl-rs` checkout, build both CTADL binaries used by the path-tracing workflow:
+
+```bash
+cargo build --release -p ctadl-ascent --bins
+```
+
+This produces `ctadl` and `get-paths` in Cargo's release output directory, usually `target/release/` under the `ctadl-rs` checkout. Set `CTADL: Ascent Path` to the absolute path of the directory containing `get-paths`.
+
+Import and index the artifact under the same project name that appears in the SARIF:
+
+```bash
+/path/to/ctadl import /path/to/artifact.apk --name my-project
+/path/to/ctadl index my-project
+```
+
+If you also want to regenerate the SARIF from the separately imported/indexed project, run:
+
+```bash
+/path/to/ctadl query my-project \
+  --sarif-profile machine \
+  --output /path/to/results.sarif \
+  --models /path/to/query.json
+```
+
+The one-shot equivalent is:
+
+```bash
+/path/to/ctadl go \
+  --name my-project \
+  --sarif-profile machine \
+  --output /path/to/results.sarif \
+  --models /path/to/query.json \
+  /path/to/artifact.apk
+```
+
 ## Development & Testing
 
 `F5` launches this extension in a new VS Code window. Subsequent changes are watched and rebuilt. Use **Developer: Reload Window** to see changes.
@@ -64,8 +105,8 @@ Build & quality checks:
 | `npm test` | Compiles tests, bundles code, runs lint, then executes the test suite in a real VS Code Extension Host. |
 
 Notes:
-- `npm test` launches a real VS Code instance; don’t kill it early.
-- In CI/headless, you can use `xvfb-run npm test`.
+- `npm test` launches a real VS Code instance; don’t kill it early. You will see a new VS Code window open, and it will close itself when the test run finishes.
+- In Linux CI/headless environments, you can use `xvfb-run npm test`.
 
 ## Test coverage expectations
 
@@ -75,35 +116,6 @@ Testing tips for contributors:
 - Prefer driving behavior through the VS Code commands (this keeps the tests aligned with how users interact with the extension).
 - Don’t rely on importing extension modules into tests for shared state; tests run against the compiled extension bundle.
 - The test workspace root is controlled by `.vscode-test.mjs` and should not be “derived” from VS Code’s `workspaceFolders` inside the code under test.
-
-### Headless tests on macOS
-
-`npm test` launches a real VS Code, which on macOS opens a window on the
-desktop; there is no `xvfb` to hide it behind. To run the same suite headlessly,
-run it inside Linux:
-
-```sh
-nix develop                  # or direnv; provides colima and the docker CLI
-scripts/test-container.sh
-```
-
-The first run boots colima's Linux VM, builds the test image and downloads a
-Linux VS Code, so it takes a while; later runs reuse all three. Useful flags:
-
-| Command | Comments |
-| --- | --- |
-| `scripts/test-container.sh` | Run the whole suite headlessly. |
-| `scripts/test-container.sh --rebuild` | Rebuild the image (after editing the `Dockerfile`). |
-| `scripts/test-container.sh --shell` | Get a shell in the container to poke at things. |
-| `scripts/test-container.sh npm run lint` | Run something other than `npm test`. |
-| `colima stop` | Shut the VM down; it otherwise stays up between runs. |
-
-The repo is bind-mounted into the container, so edits on the host take effect
-without a rebuild. Build output goes to Docker volumes mounted over
-`node_modules`, `out`, `dist` and `.vscode-test`, which keeps the Linux install
-and VS Code download from fighting with the macOS ones. The mount is writable
-because the suite writes into the tree just as a host `npm test` does — a
-Workspace-scoped setting lands in `test_examples/sources/.vscode/settings.json`.
 
 # Copyright
 
