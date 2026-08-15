@@ -59,7 +59,6 @@ jobs:
             --name com.noto_54.apk \
             --sarif-profile machine \
             --output "$generated_sarif" \
-            --sarif-profile machine \
             --models test_examples/default-query.json \
             ctadl-rs/xtask/tests/dex/com.noto_54.apk
 
