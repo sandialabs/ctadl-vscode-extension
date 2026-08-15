@@ -1,0 +1,87 @@
+name: CTADL sync
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  results-sarif:
+    name: Regenerate results.sarif
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check out ctadl-rs
+        uses: actions/checkout@v4
+        with:
+          repository: sandialabs/ctadl-rs
+          ref: main
+          path: ctadl-rs
+
+      - name: Set up Rust
+        run: rustup default stable
+
+      - name: Cache Cargo build outputs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            ctadl-rs/target
+          key: ctadl-rs-${{ runner.os }}-${{ hashFiles('ctadl-rs/Cargo.lock') }}
+          restore-keys: |
+            ctadl-rs-${{ runner.os }}-
+
+      - name: Build ctadl-rs binaries
+        working-directory: ctadl-rs
+        run: cargo build --release -p ctadl-ascent --bins
+
+      - name: Regenerate test SARIF
+        env:
+          XDG_CACHE_HOME: ${{ runner.temp }}/xdg-cache
+          XDG_STATE_HOME: ${{ runner.temp }}/xdg-state
+        run: |
+          set -euo pipefail
+          generated_dir="$RUNNER_TEMP/ctadl-sync"
+          generated_sarif="$generated_dir/results.sarif"
+          mkdir -p "$generated_dir" "$XDG_CACHE_HOME" "$XDG_STATE_HOME"
+          echo "GENERATED_SARIF=$generated_sarif" >> "$GITHUB_ENV"
+
+          ./ctadl-rs/target/release/ctadl go \
+            --name com.noto_54.apk \
+            --sarif-profile machine \
+            --output "$generated_sarif" \
+            --models test_examples/default-query.json \
+            ctadl-rs/xtask/tests/dex/com.noto_54.apk
+
+      - name: Compare generated SARIF with fixture
+        id: compare
+        run: |
+          set -euo pipefail
+          diff_file="$RUNNER_TEMP/ctadl-sync/results.diff"
+
+          if ! diff -u test_examples/results.sarif "$GENERATED_SARIF" > "$diff_file"; then
+            echo "::error file=test_examples/results.sarif,title=ctadl-rs SARIF format has changed::Generated SARIF differs from test_examples/results.sarif. See the workflow log and uploaded artifact for details."
+            cat "$diff_file"
+            exit 1
+          fi
+
+          echo "Generated SARIF matches test_examples/results.sarif"
+
+      - name: Upload generated SARIF and diff
+        if: ${{ always() && steps.compare.outcome == 'failure' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ctadl-sync-results
+          path: |
+            ${{ env.GENERATED_SARIF }}
+            ${{ runner.temp }}/ctadl-sync/results.diff
+          if-no-files-found: ignore
